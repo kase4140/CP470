@@ -2,4 +2,10 @@
     <string name="app_name">ورقة عمل 1</string>
     <string name="hello_message">مرحبا بالعالم</string>
     <string name="ButtonText">أنا زر</string>
+    <string name="log">تسجيل الدخول</string>
+    <string name="login_name">اسم الدخول</string>
+    <string name="password">كلمه السر</string>
+    <string name="pass">كلمه السر</string>
+    <string name="switch_thing">ماذا يفعل هذا؟</string>
+
 </resources>
