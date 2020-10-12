@@ -8,14 +8,14 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/loginView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/log"/>
 
 
     <EditText
-        android:id="@+id/login"
+        android:id="@+id/loginName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/login_name"
@@ -24,18 +24,24 @@
 
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/passwordView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/password"
         />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/passwordEnter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=""
         android:inputType="textPassword"
         android:importantForAutofill="no"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log" />
 
 </LinearLayout>

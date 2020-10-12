@@ -7,5 +7,8 @@
     <string name="password">كلمه السر</string>
     <string name="pass">كلمه السر</string>
     <string name="switch_thing">ماذا يفعل هذا؟</string>
-
+    <string name="dialog_message">لإنهاء المهمة حدد المربع</string>
+    <string name="dialog_title">إنذار</string>
+    <string name="ok">العودة إلى النشاط الرئيسي</string>
+    <string name="cancel">إلغاء التنبيه</string>
 </resources>

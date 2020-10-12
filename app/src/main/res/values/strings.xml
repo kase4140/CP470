@@ -7,4 +7,8 @@
     <string name="password">password</string>
     <string name="pass">password</string>
     <string name="switch_thing">What does this do?</string>
+    <string name="dialog_message">To finish the task check the box</string>
+    <string name="dialog_title">alert</string>
+    <string name="ok">going back to main activity</string>
+    <string name="cancel">cancel the alert</string>
 </resources>

@@ -4,43 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".ListItemsActivity"
+    android:columnCount="2"
+    android:onClick="onCheckChanged"
     android:rowCount="2"
-    android:columnCount="2">
+    tools:context=".ListItemsActivity">
 
     <RadioButton
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RadioButton"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"/>
+        android:layout_gravity="fill"
+        android:text="RadioButton" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBoxbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="0"
         android:layout_column="1"
-        android:text="CheckBox"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"/>
+        android:layout_gravity="fill"
+        android:onClick="onCheckChanged"
+        android:text="CheckBox" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/switchbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/switch_thing"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"/>
+        android:layout_gravity="fill"
+        android:onClick="setOnCheckedChange"
+        android:text="@string/switch_thing" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imgbutton"
         android:layout_width="108dp"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_camera"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill"/>
+        android:layout_gravity="fill"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
 
 
 </GridLayout>
