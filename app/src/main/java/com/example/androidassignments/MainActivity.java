@@ -13,6 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "MainActivity";
     Button mainButton;
+    Button startChat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent, 10);
+            }
+        });
+        startChat = findViewById(R.id.chatbutton);
+        startChat.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ChatWindow.class);
+                startActivity(intent);
+                Log.i(ACTIVITY_NAME,"User clicked start Chat");
+
             }
         });
     }
@@ -61,4 +73,5 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.i(ACTIVITY_NAME,"IN onDestroy()");
     }
+
 }

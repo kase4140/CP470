@@ -11,4 +11,7 @@
     <string name="dialog_title">إنذار</string>
     <string name="ok">العودة إلى النشاط الرئيسي</string>
     <string name="cancel">إلغاء التنبيه</string>
+    <string name="StartChart">بدء الدردشة</string>
+    <string name="SendChat">إرسال</string>
+
 </resources>

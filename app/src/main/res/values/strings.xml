@@ -11,4 +11,6 @@
     <string name="dialog_title">alert</string>
     <string name="ok">going back to main activity</string>
     <string name="cancel">cancel the alert</string>
+    <string name="StartChart">Start Chat</string>
+    <string name="SendChat">Send</string>
 </resources>
