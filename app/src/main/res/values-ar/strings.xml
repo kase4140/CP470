@@ -13,5 +13,8 @@
     <string name="cancel">إلغاء التنبيه</string>
     <string name="StartChart">بدء الدردشة</string>
     <string name="SendChat">إرسال</string>
+    <string name="alertMessage">"هل تريد العودة؟"</string>
+    <string name="setText">اضبط النص</string>
+    <string name="title_activity_test_toolbar">شريط أدوات الاختبار</string>
 
 </resources>

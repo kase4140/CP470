@@ -13,4 +13,7 @@
     <string name="cancel">cancel the alert</string>
     <string name="StartChart">Start Chat</string>
     <string name="SendChat">Send</string>
+    <string name="alertMessage">"Do you want to go back?"</string>
+    <string name="setText">Set the text</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
 </resources>
