@@ -72,7 +72,9 @@ public class ChatWindow extends AppCompatActivity {
             }
         });
     }
-    public void onDestroy(){
+
+    @Override
+    protected void onDestroy(){
         super.onDestroy();
         db2.close();
     }

@@ -16,4 +16,11 @@
     <string name="alertMessage">"Do you want to go back?"</string>
     <string name="setText">Set the text</string>
     <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="weather_forcast">weather Forcast</string>
+    <string-array name="cities">
+        <item> kitchener </item>
+        <item> waterloo</item>
+        <item>ottawa</item>
+        <item>paris</item>
+    </string-array>
 </resources>
